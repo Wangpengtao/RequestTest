@@ -1,0 +1,26 @@
+//
+//  PT_PrefixHeader.pch
+//  PT_Client_HTTP
+//
+//  Created by 天蓝 on 2017/7/26.
+//  Copyright © 2017年 PT. All rights reserved.
+//
+
+#ifndef PT_PrefixHeader_pch
+#define PT_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#import <UIKit/UIKit.h>
+
+
+#import "PT_HTTP.h"
+#import "NetworkRequestAction.h"
+
+
+
+
+#endif /* PT_PrefixHeader_pch */
